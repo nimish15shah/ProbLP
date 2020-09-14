@@ -3,9 +3,10 @@ Relative error bounds for custom floating-point arithmetic in Probabilisitic cir
 
 Verified with Python3.7
 
-Usage:
-python main.py <circuit name> float
-  Example: python main.py HAR_TAN26F float
+# Usage:
+python main.py \<circuit name\> float
+  
+Example: python main.py HAR_TAN26F float
 
 NOTE: The abosolute error bounds for the fixed-pt arith. is also implemented but needs an additional step to initialize the leaf nodes, which is not implemented yet.
 
